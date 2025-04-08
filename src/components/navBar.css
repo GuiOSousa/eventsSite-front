@@ -1,0 +1,27 @@
+@import '../App.css';
+
+.navBar {
+    color: var(--main-color);
+    font-size: 2rem;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .navBar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .navBar-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+;
