@@ -1,4 +1,4 @@
-@import "../App.css";
+@import "../variables.css";
 
 h1 {
     font-size: 3rem;
@@ -44,4 +44,17 @@ b {
     padding: 0;
     margin: 0;
     border: 0;
+}
+
+.button {
+    background-color: var(--main-color);
+    margin-top: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: var(--secondary_color);
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 25%;
 }

@@ -1,6 +1,7 @@
 import { HomeBar } from "../components/homeBar";
 import "./Home.css"
 import Image1 from "../assets/stock_image_balada.jpeg"
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <div className="subDiv">
                 <h1>Se divirta a qualquer hora e lugar</h1>
                 <p>A <b>Rolez</b> tem eventos e festas disponiveis para todos os públicos! Participe ou organize seu próprio evento agora mesmo.</p>
+                <Link to="/events" className="button">Eventos</Link>
             </div>
             <div className="imageDiv">
                 <img src={Image1} className="image"></img>
