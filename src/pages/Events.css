@@ -1,1 +1,8 @@
-@import '../App.css'
+@import '../App.css';
+
+.eventList {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding: 25px;
+}
